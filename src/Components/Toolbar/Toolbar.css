@@ -1,0 +1,103 @@
+.topbar{
+    height: 50px;
+    width: 100%;
+    background-color: #1877f2;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.topbar-right{
+    display: flex;
+    align-items: center;
+    flex: 3;
+}
+
+.topbar-right h3{
+    margin: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.topbar-center{
+    display: flex;
+    align-items: center !important;
+    height: 30px;
+    background-color: white;
+    flex: 5;
+    border-radius: 20px;
+}
+
+.search-icon{
+    font-size: 18px !important;
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+    margin-top: 3px;
+}
+
+.topbar-center input{
+    border: none;
+    width: 90%;
+    height: 25px;
+}
+
+.topbar-center input:focus{
+    outline: none;
+}
+.topbar-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 4;
+    color: white;
+}
+
+.links{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topbar-link{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.topbar-icons{
+    display: flex;
+    font-size: 10px;
+}
+
+.topbar-icon-item{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.topbar-icon-badge{
+    position: absolute;
+    background-color: red;
+    color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    right: -5px;
+    top: -5px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: red;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
